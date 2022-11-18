@@ -1,5 +1,5 @@
 Spaceship dog = new Spaceship();
-Star[] cat = new Star[50];
+Star[] cat = new Star[100];
 public void setup() 
 {
   size(800,800);
@@ -11,9 +11,9 @@ public void draw()
   background(255);
   for (int i = 0; i<cat.length; i++) {
     cat[i].display();
-    cat[i].reset();
+    //cat[i].reset();
   }
-   dog.show();
+  dog.show();
   dog.move();
 }
 public void keyPressed()
