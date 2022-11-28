@@ -22,10 +22,12 @@ public void keyPressed()
     if(key == 'w')
       dog.accelerate(1);
     if(key == 's')
-     dog.accelerate(-1);
+      dog.accelerate(-1);
     if(key == 'd')
       dog.turn(30);
     if(key == 'a')
       dog.turn(-30);
+    if(key == 'h')
+      dog.hyperSpace();
   }
 }
