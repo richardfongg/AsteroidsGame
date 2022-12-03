@@ -1,6 +1,6 @@
 Spaceship dog = new Spaceship();
 Star[] cat = new Star[100];
-ArrayList <Asteroid> snake = new ArrayList<Asteroid> ();
+ArrayList <Asteroid> snake = new ArrayList <Asteroid> ();
 public void setup() 
 {
   size(800, 800);
